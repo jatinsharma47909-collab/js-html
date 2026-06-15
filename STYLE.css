@@ -1,6 +1,7 @@
 
 *{
     margin: 0;
+    font-family: "Lilita One";
 }
 nav{
     display:flex;
@@ -23,7 +24,7 @@ nav h2{
     color: white;
 }
 nav a:hover{
-    color: #6f10c2;
+    color:#8410c2;
 }
 nav li:last-child
 a{
