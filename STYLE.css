@@ -26,17 +26,14 @@ nav h2{
 nav a:hover{
     color:#eb1212;
 }
-nav li:last-child
-a{
+nav li:last-childa{
     background-color: red;
     padding: 15px 20px;
     border-radius: 12px;
 
 
-}nav
-li:last-child a:hover{
-    color:black;
 }
+
 .hero{
     height: 90vh;
 background: url(media/banner.png)no-repeat center/cover;
@@ -69,5 +66,59 @@ color: white;
     widht:100%;
     border-radius:50px;
 }
+.video-text h2{
+    font-size: 32px;
+    margin-bottom: 15px;
 
+}
+.video-textp{
+    font-size: 18px;
+    color: red(219,31,21);
+}
+.video-text{
+flex: 1;
+}
+.video-box{
+    flex: 1;
+}
+.about{
+    text-align: center;
+    padding: 60px 20px;
+    background: white(240,223,190);
+
+}
+.about h2
+{
+    font-size: 32px;
+    margin-bottom: 20px;
+
+}
+.card{
+    background:wheat ;
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.card button{
+    background:red;
+    color: white;
+    border-radius: 5px;
+cursor: pointer;    
+margin-top:5px;
+}
+.card button:hover{
+    background-color:rgb(21, 3, 14);
+}
+
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+}
 
