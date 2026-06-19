@@ -2,11 +2,69 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="x-icon" href="IMAGES/favicon_io/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    this is cart page
-    
+     <header>
+        <nav>
+          <img src="IMAGES/logo bite box.png" alt="logo"width="200px">
+        <ul>
+            <li><a href="Home.html" class="active">Home</a></li>
+        
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="bitedeals.html">Bitedeals</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-plus"></i></a></li>
+            <li><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a></li>
+        </ul>
+        </nav>
+    </header>
+    <section class="cart">
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total<th>
+                <th>Remove</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item">
+                        <img src="media/MSG-Smash-Burger.jpg" alt="">
+                        <div>
+                            <h4>cheesy burger</h4>
+                            <p>JUicy grilled burger</p>
+                        </div>
+
+                    </td>
+                    <td> RS 199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+
+                        </div>
+                    
+                    </td>
+                   <td>RS199</td>
+                   <td><button class="remove">X</button> </td>
+                
+                    </tr>
+                     <tr class="grand-total">
+                    <td colspan="3"> GRAND TOTAL</td>
+                    <td> RS 199</td>
+                    <td><button>proceed</button></td>
+                     </tr>
+
+            </tbody>
+        </table>
+    </section>
 </body>
 </html>
