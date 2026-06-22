@@ -156,7 +156,84 @@ header{
     position: sticky;
     top: 0;
 }
-
-
-
-
+.item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+ }
+.cart{
+    width: 100%;
+    padding: 40px 0px;
+}
+.item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+table{
+    width: 60%;
+    background:wheat;
+    border-radius: 10px;
+    position: sticky;
+    border-collapse: collapse;
+}
+thead{
+    background-color: red;
+    color: wheat;
+    }
+    th,td{
+        padding: 20px ;
+        text-align: center;
+    }
+     tr{
+        border-bottom: 1px solid black;
+    }
+    .item h4{
+        margin-pxbottom: 15px;
+    }
+    .qty-box{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .qty-box button{
+        width: 30px;
+        height: 30px;
+        border: none;
+        background: #eb1212;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+     }
+     .qty-box button:hover{
+        background: darkred;
+     }
+     .remove{
+        background: #eb1212;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+     }
+     .remove:hover{
+        background: darkred;
+     }
+     .grand-total button{
+        background: #eb1212;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 5px;
+        cursor: pointer;
+     }
+     .grand-total button:hover{
+        background: darkred;
+     }
+     .grand-total td{
+        font-size: 22px;
+        padding: 20px 30px;
+        font-weight: bold;
+     }
