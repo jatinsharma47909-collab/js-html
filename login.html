@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="x-icon" href="IMAGES/favicon_io/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
     
    
 </head>
@@ -29,10 +30,11 @@
         <div class="auth-box">
             <h2>Login to bitebox</h2>
             <form>
-                <input type="email" placeholder="Enter email" required>
-                <input type="password" placeholder="Enter passwor"required>
-                <button type="submit">Login</button>
+                <input type="text" placeholder="Enter email" id="email" name="username" required>
+                <input type="password" placeholder="Enter password" id="password" name="password" required>
+                <button type="button" onclick="login()">Login</button>
                 <p> <a href="signup.html">Forgot password</a></p>
+                <p id="error" style="color:red;"></p>
                 <p> don't have an account<a href="signup.html">Signup</a></p>
             </form>
         </div>
