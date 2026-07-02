@@ -31,7 +31,11 @@
             <h2>Login to bitebox</h2>
             <form>
                 <input type="text" placeholder="Enter email" id="email" name="username" required>
-                <input type="password" placeholder="Enter password" id="password" name="password" required>
+                <div style="position: relative;">
+                   <input type="password" placeholder="Enter password" id="password" name="password" required> 
+                   <i class="fa-solid fa-eye" onclick="togglepassword()" style="position: absolute; top: 20px; right: 1px;"></i>
+                </div>
+            
                 <button type="button" onclick="login()">Login</button>
                 <p> <a href="signup.html">Forgot password</a></p>
                 <p id="error" style="color:red;"></p>

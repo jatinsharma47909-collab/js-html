@@ -17,3 +17,16 @@ else
     error.innerHTML="invalid email or password"
 }
 }
+
+function togglepassword(){
+    let passwordInput=document.getElementById("password");
+    console.log(passwordInput.type)
+    if(passwordInput.type==="password")
+        {
+        passwordInput.type="text";
+    }
+    else{
+        password.type="password";
+    }
+    
+}
